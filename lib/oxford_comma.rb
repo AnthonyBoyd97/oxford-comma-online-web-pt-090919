@@ -2,7 +2,7 @@ def oxford_comma(array)
   string=""
   array.each_with_index do |item,index|
     if array.length==2
-      string=array.join(", ")
+      string=array.join(" and ")
       return string
     elsif array[0]==array[-1]
       string="#{item}"
