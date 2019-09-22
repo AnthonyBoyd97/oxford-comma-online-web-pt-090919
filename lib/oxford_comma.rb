@@ -9,4 +9,5 @@ def oxford_comma(array)
       string+=", #{item}"
     end
   end
+  return string
 end
